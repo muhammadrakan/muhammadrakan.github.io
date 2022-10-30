@@ -295,6 +295,24 @@ nav {
     text-decoration: none;
 }
 
+/* modal */
+.modal h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #EE8B98;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.modal i {
+    font-size: 10px;
+    color:#EE8B98;
+    padding-right: 6px;
+}
+
+.modal-body .pp {
+    margin-top: -3em;
+}
+
 /* desktop version */
 @media (min-width: 992px) {
     nav {
@@ -352,6 +370,10 @@ nav {
     .footer p {
         font-size: 17px;
     }
+
+    .modal-body .pp {
+        margin-top: -90px;
+    }
 }
 
 
@@ -398,5 +420,13 @@ nav {
     }
     .rooms h2 {
         padding-top: 22px;
+    }
+
+    .modal h2 {
+        font-size: 2em;
+    }
+
+    .modal .modal-superior {
+        margin-top: -50px;
     }
 }
