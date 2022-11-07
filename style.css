@@ -62,12 +62,39 @@ nav {
     font-weight: bold;
     font-size: 55px;
     color: #EE8B98;
+    opacity: 0;
+    transform: translate(0,-40px);
+    transition: 1s;
+}
+
+.description h1.muncul {
+    opacity: 1;
+    transform: translate(0,0);
 }
 
 .description h3 {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 20px;
     margin-bottom: 15px;
+    opacity: 0;
+    transform: translate(0, -40px);
+    transition: 2s;
+}
+
+.description h3.muncul {
+    opacity: 1;
+    transform: translate(0,0);
+}
+
+.description .teks {
+    opacity: 0;
+    transform: translate(0, 40px);
+    transition: 1s;
+}
+
+.description .teks.muncul {
+    opacity: 1;
+    transform: translate(0,0);
 }
 
 
@@ -84,6 +111,14 @@ nav {
     margin-bottom: 50px;
     color: #797D7F;
     padding-bottom: 35px;
+    opacity: 0;
+    transform: translate(0,-45px);
+    transition: 1s;
+}
+
+.rooms .title-rooms.muncul {
+    opacity: 1;
+    transform: translate(0,0);
 }
 
 .rooms img {
