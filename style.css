@@ -105,22 +105,140 @@ nav {
     font-size: 55px;
     color: #EE8B98;
     margin-top: 80px;
-}
-
-.rooms .title-rooms {
-    margin-bottom: 50px;
-    color: #797D7F;
-    padding-bottom: 35px;
     opacity: 0;
-    transform: translate(0,-45px);
+    transform: translate(0,-40px);
     transition: 1s;
 }
 
-.rooms .title-rooms.muncul {
+.title-rooms p {
+    opacity: 0;
+    transition: 2s;
+    transform: translate(0,-30px);
+}
+
+.title-rooms p.muncul {
     opacity: 1;
     transform: translate(0,0);
 }
 
+.rooms h1.muncul {
+    opacity: 1;
+    transform: translate(0,0);
+}
+.rooms .title-rooms {
+    margin-bottom: 50px;
+    color: #797D7F;
+    padding-bottom: 35px;
+}
+
+.sRoom h2 {
+    opacity: 0;
+    transition: 1s;
+    transform: translate(-40px,0);
+}
+
+.sRoom p {
+    opacity: 0;
+    transform: translate(-50px,0);
+    transition: .5s;
+}
+
+.sRoom p.muncul {
+    opacity: 1;
+    transform: translate(0,0);
+}
+
+.sRoom h2.muncul {
+    opacity: 1;
+    transform: translate(0,0);
+}
+
+.dRoom h2 {
+    opacity: 0;
+    transition: 1s;
+    transform: translate(-50px,0);
+}
+
+.dRoom h2.muncul {
+    opacity: 1;
+    transform: translate(0,0);
+}
+
+.dRoom p {
+    opacity: 0;
+    transform: translate(-50px,0);
+    transition: .5s;
+}
+.dRoom p.muncul {
+    opacity: 1;
+    transform: translate(0,0);
+}
+
+.fSuite h2 {
+    opacity: 0;
+    transform: translate(-50px,0);
+    transition: 1s;
+}
+
+.fSuite p {
+    opacity: 0;
+    transform: translate(-40px,0);
+    transition: .5s;
+}
+
+.fSuite p.muncul {
+    opacity: 1;
+    transform: translate(0,0);
+}
+
+.fSuite h2.muncul {
+    opacity: 1;
+    transform: translate(0,0);
+}
+
+.jSuite h2 {
+    opacity: 0;
+    transform: translate(-50px,0);
+    transition: 1s;
+}
+
+.jSuite h2.muncul {
+    opacity: 1;
+    transform: translate(0,0);
+}
+
+.jSuite p{
+    opacity: 0;
+    transition: .5s;
+    transform: translate(-40px,0);
+}
+
+.jSuite p.muncul {
+    opacity: 1;
+    transform: translate(0,0);
+}
+
+.pSuite h2 {
+    opacity: 0;
+    transform: translate(-50px,0);
+    transition: 1s;
+}
+
+.pSuite h2.muncul {
+    opacity: 1;
+    transform: translate(0,0);
+}
+
+.pSuite p {
+    opacity: 0;
+    transition: .5s;
+    transform: translate(-40px,0);
+}
+
+.pSuite p.muncul {
+    opacity: 1;
+    transform: translate(0,0);
+}
 .rooms img {
     border-radius: 7px;
     border: 1px solid;
@@ -280,7 +398,27 @@ nav {
     margin-bottom: 20px;
     margin-top: 20px;
 }
+.title-facilities h1 {
+    opacity: 0;
+    transform: translate(0,-40px);
+    transition: 1s;
+}
 
+.title-facilities p {
+    opacity: 0;
+    transform: translate(0,40px);
+    transition: 1s;
+}
+
+.title-facilities h1.muncul {
+    opacity: 1;
+    transform: translate(0,0);
+}
+
+.title-facilities p.muncul {
+    opacity: 1;
+    transform: translate(0,0);
+}
 
 /* photo */
 .photo {
@@ -294,12 +432,28 @@ nav {
     color: #EE8B98;
     margin-top: 80px;
     text-align: center;
+    opacity: 0;
+    transform: translate(0,40px);
+    transition: 1s;
 }
 
 .photo p {
     color: white;
     text-align: center;
     margin-bottom: 70px;
+    opacity: 0;
+    transform: translate(0,-40px);
+    transition: 1s;
+}
+
+.photo h1.muncul {
+    opacity: 1;
+    transform: translate(0,0);
+}
+
+.photo p.muncul {
+    opacity: 1;
+    transform: translate(0,0);
 }
 
 .carousel h3 {
