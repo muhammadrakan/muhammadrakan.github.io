@@ -1,0 +1,99 @@
+body {
+    background-color: #fff0f5;
+}
+
+h1 {
+    color: #ffb6c1;
+}
+
+.btn {
+    background-color: #ffb6c1;
+    color: #fff0f5;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.btn:hover {
+    transition: .5s;
+    color: #ff69b4;
+}
+
+.kontener {
+    justify-content: center;
+    display: flex;
+}
+
+img {
+    color: #ffb6c1;
+}
+
+.ilang {
+    display: none;
+}
+
+i {
+    font-size: 6rem;
+    margin: 20px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+.satu {
+    position: relative;
+    animation-name: example1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+.dua {
+    position: relative;
+    animation-name: example2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+.tiga {
+    position: relative;
+    animation-name: example3;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+.empat {
+    position: relative;
+    animation-name: example4;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes example1 {
+    0%   {color:#ffb6c1; left:0px; top:0px;}
+    25%  {color:#ffe4e1; left:-200px; top:0px;}
+    50%  {color:#ffc0cb; left:200px; top:200px;}
+    75%  {color:#db7093; left:0px; top:200px;}
+    100% {color:#ff69b4; left:0px; top:0px;}
+  }
+@keyframes example2 {
+    0%   {color:#ffb6c1; left:-20px; top:0px;}
+    25%  {color:#ffe4e1; left:40px; top:0px;}
+    50%  {color:#ffc0cb; left:50px; top:200px;}
+    75%  {color:#db7093; left:200px; top:50px;}
+    100% {color:#ff69b4; left:20px; top:0px;}
+  }
+@keyframes example3 {
+    0%   {color:#ffb6c1; left:90px; top:100px;}
+    25%  {color:#ffe4e1; left:0px; top:200px;}
+    50%  {color:#ffc0cb; left:-100px; top:10px;}
+    75%  {color:#db7093; left:20px; top:100px;}
+    100% {color:#ff69b4; left:90px; top:100px;}
+  }
+@keyframes example4 {
+    0%   {color:#ffb6c1; left:200px; top:30px;}
+    25%  {color:#ffe4e1; left:30px; top:100px;}
+    50%  {color:#ffc0cb; left:100px; top:200px;}
+    75%  {color:#db7093; left:0px; top:20px;}
+    100% {color:#ff69b4; left:200px; top:30px;}
+  }
